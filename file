@@ -1,0 +1,23 @@
+.installing git : sudo apt install git
+set account github : git config --global user.name "elariaadham"
+                     git config --global user.email elaryaadham@gmail.com
+clone project : git clone git@github.com:FatmaKhaled/cloud42.git
+cd cloud42
+touch elariaadham
+vi elariaadham
+git add elariaadham
+git commit -m "uload file elariaadham"
+git push origin main
+-----------------------------------------------------------------------
+mkdir ella
+cd ella
+git init
+git remote add master git@github.com:elaria-2017/ella.git
+git remote add origin git@bitbucket.org:elariaadham/ella.git
+touch file
+vi file 
+git add file
+git commit -m "lab steps"
+git push origin master
+git push master master
+                
